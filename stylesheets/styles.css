@@ -1,0 +1,91 @@
+html, body 
+{ 
+    height: 100%;
+	min-width: 600px;
+	margin: 0;
+	
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-size: 12px;
+} 
+
+
+
+/*********************************************************************************************************
+HEADER
+*********************************************************************************************************/
+#header
+{
+	/* COLORS */
+	background: red;
+	opacity: 1.0;
+
+	/* SIZE */
+    height: 143px;
+	margin: 0px -75px 0px -75px;  /* Number value should be: -1(#mainwrap border + #mainwrap padding) */
+	padding: 5px;
+
+	/* POSITION */
+	position: relative;
+}
+
+
+
+/*********************************************************************************************************
+MAIN BODY
+*********************************************************************************************************/
+#mainwrap
+{
+	/* COLORS */
+    background: orange;
+	border-left: 50px solid #48a7bd;
+	border-right: 50px solid #48a7bd;
+
+	/* SIZE */
+	min-height: 100%; 
+    height: auto !important; /*Cause footer to stick to bottom in IE 6*/
+    height: 100%; 
+    margin: 0 auto -120px; /*Allow for footer height*/
+
+	padding-left: 25px;
+	padding-right: 25px;
+}
+
+#footerdisp 
+{
+	/* COLORS */
+    opacity: 1.0;
+    
+	/* SIZE */
+	height: 140px; /* #footerdisp height = #footer height */
+}
+
+#pseudopad
+{
+	/* COLORS */
+    opacity: 1.0;
+	border-top: 4px solid #48a7bd;
+    
+	/* SIZE */
+	height: 16px;
+	margin: 0px -25px 0px -25px;
+}
+
+
+
+/*********************************************************************************************************
+FOOTER
+*********************************************************************************************************/
+#footer
+{
+    /* COLORS */
+    background: yellow;
+
+	/* SIZE */
+    height: 120px; /*Push must be same height as Footer */
+}
+
+
+#footnote {
+	display: inline-block;
+	font-size: 10px;
+}
